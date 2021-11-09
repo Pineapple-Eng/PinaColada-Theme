@@ -1,0 +1,32 @@
+{
+    "name": "dhamova-pineapple-vsctheme",
+    "displayName": "PinaColada Theme",
+    "description": "Pineapple.build Official Visual Studio Code Theme",
+    "publisher": "Dhamova",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "icon": "icons/pinacolada-theme-icon.png",
+    "author":{
+        "name": "Dhamova Inc",
+        "email": "support@dhamova.com",
+        "url": "https://pineapple.build"
+    },
+    "repository": {
+        "url": "https://github.com/PineappleBuild/PinaColada-Theme.git",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PinaColada Theme",
+                "uiTheme": "vs",
+                "path": "./themes/PinaColada Theme-color-theme.json"
+            }
+        ]
+    }
+}
